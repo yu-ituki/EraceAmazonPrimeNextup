@@ -1,0 +1,15 @@
+{
+  "name": "EraseFuckinPrimeVideoNextup",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "プライムビデオのクソNextupを消すだけの拡張",
+  "content_scripts": [{
+    "matches": [
+        "https://www.amazon.co.jp/gp/video/*",
+        "https://www.amazon.co.jp/*/dp/*"
+    ],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
